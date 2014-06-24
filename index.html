@@ -237,3 +237,92 @@ require(["gitbook"], function(gitbook) {
     </body>
     
 </html>
+ef="./architecture/rest.html" title="RESTful Back-End" class="chapter  " data-progress="3.2" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_15">
+                    
+                        <h1 id="interview-questions-app">Interview Questions App</h1>
+<p>June 23, 2014</p>
+<h1 id="objectives">Objectives</h1>
+<ul>
+<li>Generate and manage questions in the interview process.</li>
+<li>Allow generation of questions by categories</li>
+<li>Minimal low-level interaction with the database and application. (No need to edit code or perform SQL queries to manage questions)</li>
+<li>Support several concurrent users and database of several thousand questions.</li>
+<li>Support IE 11+</li>
+<li>Run on IIS and with SQL Server 2012</li>
+</ul>
+<h1 id="ui-outline-key-features">UI Outline + Key Features</h1>
+<ul>
+<li>Sidebar<ul>
+<li><strong>Candidate Tab</strong> (Hidden until candidate is selected or generated)</li>
+<li><strong>Generate Tab</strong> (For generating new portfolio of questions)</li>
+<li><strong>Search Tab</strong> (For searching through all questions and adding to current portfolio</li>
+<li><strong>Update Tab</strong> (For adding/deleting questions from the database)</li>
+<li><strong>Update Keys</strong> (For adding/removing categories/subcategories/roles)</li>
+<li><strong>Previously Generated Tab</strong> (Browse and manage previously generated portfolios)
+*</li>
+</ul>
+</li>
+<li><p>Candidate Tab</p>
+<ul>
+<li><strong>Print View button</strong> (removes sidebar/buttons, reveals all questions)</li>
+<li>List of questions by category.</li>
+<li>Each question has<ul>
+<li>Button for revealing answer</li>
+<li>Button for removing from current         portfolio</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Generate Tab</p>
+<ul>
+<li>Required Field: Candidate Name</li>
+<li>Fields: # of questions to generate per category
+*</li>
+</ul>
+</li>
+</ul>
+
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        
+        <a href="./user_guide/README.html" class="navigation navigation-next navigation-unique" aria-label="Next page: User Guide"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
