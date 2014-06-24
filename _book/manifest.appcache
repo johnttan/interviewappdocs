@@ -1,10 +1,16 @@
 CACHE MANIFEST
-# Revision 1403508072489
+# Revision 1403583474798
 
 CACHE:
 index.html
-user_guide/README.html
+architecture/README.html
+architecture/front-end.html
+architecture/rest.html
 technology_stack/README.html
+user_guide/README.html
+user_guide/article.html
+user_guide/questions_management.html
+user_guide/setup.html
 gitbook\app.js
 gitbook\fonts\fontawesome\FontAwesome.otf
 gitbook\fonts\fontawesome\fontawesome-webfont.eot
